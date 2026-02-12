@@ -214,7 +214,8 @@ Let's make a bar plot showing the difference in ice mass loss for Antarctica and
 # Largest observed decrease in ice mass loss in Antarctica:
 min(ant_ice_loss$mass_Gt)
 
-# Barplot of largest observed ice loss in Antarctica and Greenland
+# 
+# of largest observed ice loss in Antarctica and Greenland
 barplot(height = c(min(ant_ice_loss$mass_Gt), min(grn_ice_loss$mass_Gt)))
 
 # Flip to negative to positive, add x-axis labels, add more tick marks on y-axis, add y-axis title
